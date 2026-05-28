@@ -13,11 +13,12 @@ for i in range(-23,23):
 x = compound([a,b,c])
 x.axis = vec(0,-1,0)
 if ' ' in k : 
-    if 'd' in k :
+    for b in boxes :
+        if 'd' in k :
         b.pos.x = b.pos.x + 0.1
-    if 'a' in k :
+        if 'a' in k :
         b.pos.x = b.pos.x - 0.1
-    if 'w' in k :
+        if 'w' in k :
         b.pos.y = b.pos.y + 0.1
-    if 's' in k :
+        if 's' in k :
         b.pos.y = b.pos.y - 0.1
