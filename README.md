@@ -11,14 +11,19 @@ for i in range(-23,23):
     box(pos = vec(i,-7,0))
     box(pos = vec(i,-8,0))
 x = compound([a,b,c])
-x.axis = vec(0,-1,0)
-if ' ' in k : 
-    for b in boxes :
-        if 'd' in k :
-        b.pos.x = b.pos.x + 0.1
-        if 'a' in k :
-        b.pos.x = b.pos.x - 0.1
-        if 'w' in k :
-        b.pos.y = b.pos.y + 0.1
-        if 's' in k :
-        b.pos.y = b.pos.y - 0.1
+while True :
+    rate(100)
+    k = keysdown()
+    if ' ' in k : 
+        x.pos = vec(0,0,0)
+    if 'r' in k : 
+        x.color = color.red
+        b.opacity = 0.5
+    if 'd' in k :
+        x.pos.x = x.pos.x + 0.1
+    if 'a' in k :
+        x.pos.x = x.pos.x - 0.1
+    if 'w' in k :
+        x.pos.y = x.pos.y + 0.1
+    if 's' in k :
+        x.pos.y = x.pos.y - 0.1
