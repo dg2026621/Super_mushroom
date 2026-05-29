@@ -16,9 +16,6 @@ while True :
     k = keysdown()
     if ' ' in k : 
         x.pos = vec(0,0,0)
-    if 'r' in k : 
-        x.color = color.red
-        b.opacity = 0.5
     if 'd' in k :
         x.pos.x = x.pos.x + 0.1
     if 'a' in k :
