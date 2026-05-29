@@ -24,3 +24,6 @@ while True :
         x.pos.y = x.pos.y + 0.1
     if 's' in k :
         x.pos.y = x.pos.y - 0.1
+for i in range(-23,23):
+    box(pos = vec(i,-7,0))
+    box(pos = vec(i,-8,0))
