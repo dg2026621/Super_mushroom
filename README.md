@@ -19,10 +19,10 @@ for i in range(-4,3):
  for i in range(10,17):
   box(pos=vec(i,8,0))
 
-sphere(pos=vec(0, 20, 0), radius=1, color=vec(132/255, 189/255, 241/255))
-sphere(pos=vec(-1, 19, 0), radius=1, color=vec(132/255, 189/255, 241/255))
-sphere(pos=vec(1, 19, 0), radius=1, color=vec(132/255, 189/255, 241/255))
-sphere(pos=vec(0, 19, 0), radius=1, color=vec(132/255, 189/255, 241/255))
+sphere(pos=vec(-3, 24, 0), radius=1, color=vec(132/255, 189/255, 241/255))
+sphere(pos=vec(-4, 23, 0), radius=1, color=vec(132/255, 189/255, 241/255))
+sphere(pos=vec(-2, 23, 0), radius=1, color=vec(132/255, 189/255, 241/255))
+sphere(pos=vec(-3, 23, 0), radius=1, color=vec(132/255, 189/255, 241/255))
 
 sphere(pos=vec(10, 30, 0), radius=1, color=vec(132/255, 189/255, 241/255))
 sphere(pos=vec(9, 29, 0), radius=1, color=vec(132/255, 189/255, 241/255))
