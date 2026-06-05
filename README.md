@@ -7,8 +7,17 @@ e = sphere(pos=vec(-1.2, 0, -0.1), radius=1, color=color.white)
 f = sphere(pos=vec(1.2, 0, 0.1), radius=1, color=color.white)
 
 for i in range(-20,20):
- box(pos=vec(i,-3.5,0))
- box(pos=vec(i,-4.5,0))
+ box(pos=vec(i,-3.5,0),color=vec(128/255,82/255,24/255))
+ box(pos=vec(i,-4.5,0),color=vec(128/255,82/255,24/255))
+
+for i in range(-13,-3):
+ box(pos=vec(i,4,0))
+
+for i in range(-4,3):
+ box(pos=vec(i,15,0))
+ 
+ for i in range(10,17):
+  box(pos=vec(i,8,0))
 
 sphere(pos=vec(0, 20, 0), radius=1, color=vec(132/255, 189/255, 241/255))
 sphere(pos=vec(-1, 19, 0), radius=1, color=vec(132/255, 189/255, 241/255))
