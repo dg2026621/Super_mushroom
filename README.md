@@ -6,6 +6,28 @@ d = sphere(pos=vec(0.04, -2, 0), radius =1.01, color = vec(239/255,219/255,174/2
 e = sphere(pos=vec(-1.2, 0, -0.1), radius=1, color=color.white)
 f = sphere(pos=vec(1.2, 0, 0.1), radius=1, color=color.white)
 
+sphere(pos=vec(0, 20, 0), radius=1, color=vec(132/255, 189/255, 241/255))
+sphere(pos=vec(-1, 19, 0), radius=1, color=vec(132/255, 189/255, 241/255))
+sphere(pos=vec(1, 19, 0), radius=1, color=vec(132/255, 189/255, 241/255))
+sphere(pos=vec(0, 19, 0), radius=1, color=vec(132/255, 189/255, 241/255))
+
+sphere(pos=vec(10, 30, 0), radius=1, color=vec(132/255, 189/255, 241/255))
+sphere(pos=vec(9, 29, 0), radius=1, color=vec(132/255, 189/255, 241/255))
+sphere(pos=vec(11, 29, 0), radius=1, color=vec(132/255, 189/255, 241/255))
+sphere(pos=vec(10, 29, 0), radius=1, color=vec(132/255, 189/255, 241/255))
+
+sphere(pos=vec(-20, 25, 0), radius=1, color=vec(132/255, 189/255, 241/255))
+sphere(pos=vec(-19, 24, 0), radius=1, color=vec(132/255, 189/255, 241/255))
+sphere(pos=vec(-21, 24, 0), radius=1, color=vec(132/255, 189/255, 241/255))
+sphere(pos=vec(-20, 24, 0), radius=1, color=vec(132/255, 189/255, 241/255))
+
+sphere(pos=vec(20, 20, 0), radius=1, color=vec(132/255, 189/255, 241/255))
+sphere(pos=vec(19, 19, 0), radius=1, color=vec(132/255, 189/255, 241/255))
+sphere(pos=vec(21, 19, 0), radius=1, color=vec(132/255, 189/255, 241/255))
+sphere(pos=vec(20, 19, 0), radius=1, color=vec(132/255, 189/255, 241/255))
+
+sphere(pos=vec(20, 30, 0), radius=3, color=vec(237/255, 205/255, 74/255))
+
 x = compound([a,b,c,d,e,f])
 
 while True :
