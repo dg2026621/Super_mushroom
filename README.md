@@ -18,6 +18,7 @@ for i in range(-4,3):
  
  for i in range(10,17):
   box(pos=vec(i,8,0))
+cylinder(pos=vec(-9,-1,0),color=color.red,axis= vec(0.04, -2,0))
 
 sphere(pos=vec(-3, 24, 0), radius=1, color=vec(132/255, 189/255, 241/255))
 sphere(pos=vec(-4, 23, 0), radius=1, color=vec(132/255, 189/255, 241/255))
