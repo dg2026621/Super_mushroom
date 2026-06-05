@@ -6,6 +6,10 @@ d = sphere(pos=vec(0.04, -2, 0), radius =1.01, color = vec(239/255,219/255,174/2
 e = sphere(pos=vec(-1.2, 0, -0.1), radius=1, color=color.white)
 f = sphere(pos=vec(1.2, 0, 0.1), radius=1, color=color.white)
 
+for i in range(-20,20):
+ box(pos=vec(i,-3.5,0))
+ box(pos=vec(i,-4.5,0))
+
 sphere(pos=vec(0, 20, 0), radius=1, color=vec(132/255, 189/255, 241/255))
 sphere(pos=vec(-1, 19, 0), radius=1, color=vec(132/255, 189/255, 241/255))
 sphere(pos=vec(1, 19, 0), radius=1, color=vec(132/255, 189/255, 241/255))
