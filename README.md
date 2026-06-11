@@ -1,5 +1,6 @@
 # Super_mushroom
-
+#scene.background = color.white
+box(texture = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6Q2SY8jDf2DTRIyH_NreJzhyjQ2dS3dY1jw&s", size = vec(50,50,1), pos = vec(0,20,-2))
 a = cylinder(pos=vec(0, 0, 0), axis=vec(0.04, -2, 0), length = 2.2, color = vec(239/255,219/255,174/255))
 b = sphere(pos=vec(0, 0, 0), radius=2, color=color.red, axis = vec(0,-1,0))
 c = sphere(pos=vec(0, 0, 1.2), radius=1, color=color.white, axis = vec(0,-1,0))
@@ -44,6 +45,7 @@ sphere(pos=vec(19, 19, 0), radius=1, color=vec(132/255, 189/255, 241/255))
 sphere(pos=vec(21, 19, 0), radius=1, color=vec(132/255, 189/255, 241/255))
 sphere(pos=vec(20, 19, 0), radius=1, color=vec(132/255, 189/255, 241/255))
 
+local_light(pos=vec(20, 30, 0), radius=3, color=vec(237/255, 205/255, 74/255))
 sphere(pos=vec(20, 30, 0), radius=3, color=vec(237/255, 205/255, 74/255))
 
 sphere(pos=vec(13,10,0), radius=1, color=vec(237/255, 205/255, 74/255))
